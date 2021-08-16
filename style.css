@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url(font/Montserrat/Montserrat-Bold.ttf);
+    font-family: montbold;
+}
+
+@font-face {
+    src: url(font/Montserrat/Montserrat-Medium.ttf);
+    font-family: montmed;
+}
+
+@font-face {
+    src: url(font/Playfair-Display/static/PlayfairDisplay-Bold.ttf);
+    font-family: PlayfairDisplay-bold;
+}
+
+@font-face {
+    src: url(font/Playfair-Display/static/PlayfairDisplay-Regular.ttf);
+    font-family: PlayfairDisplay-regular;
+}
+
+header {
+    background-image: url(jareth-sky-l9KhNCkp0T4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#logo {
+    font-size: 36px;
+    color: #BD9677;
+    position: absolute;
+    margin-top: 72px;
+    margin-left: 120px;
+    font-family: montbold;
+}
+
+.nav {
+    position: relative;
+    font-size: 24px;
+    margin-left: 1000px;
+    font-family: montmed;
+}
+
+.nav ul li {
+    float: left;
+    list-style-type: none;
+    padding-top: 80px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding-right: 58px;
+}
+
+.relax {
+    color: white;
+    font-size: 72px;
+    padding-top: 236px;
+    padding-left: 120px;
+    font-family: PlayfairDisplay-bold;
+}
+
+#coffee {
+    color: #BD9677;
+}
+
+.relaxlorem {
+    color: #ccc;
+    font-size: 24px;
+    line-height: 50px;
+    margin: 30px 0 0 120px;
+    font-family: montmed;
+}
+
+.button {
+    background-color: #799093;
+    display: inline-block;
+    margin: 40px 0 0 120px;
+    padding: 14px 25px;
+    border-radius: 15px;
+    box-shadow: 0 2px 65px 0 rgb(0, 0, 0, 0.34), 0 0.7px 63px 0 rgb(0, 0, 0, 0.24), 0 0.07px 43px 0 rgb(0, 0, 0, 0.12);
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-family: montmed;
+    text-align: center;
+}
+
+.coffees {
+    font-family: PlayfairDisplay-bold;
+    font-size: 72px;
+    color: #39261C;
+    text-align: center;
+    margin-top: 60px;
+}
+
+menu {
+    width: 100%;
+}
+
+.parent {
+    margin-top: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.child {
+    box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+}
+
+.image {
+    width: 307px;
+    height: 281.48px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.menu-name {
+    font-family: montmed;
+    font-size: 24px;
+    color: #BD9677;
+    margin-top: 15px;
+    margin-left: 20px;
+    line-height: 40px;
+}
+
+.menu-desc {
+    font-family: montmed;
+    font-size: 18px;
+    color: #ccc;
+    margin-left: 20px;
+    line-height: 40px;
+}
+
+.button1 {
+    border-radius: 15px;
+    background-color: #799093;
+    display: inline-block;
+    width: 122px;
+    height: 44px;
+    margin: 40px 690px;
+}
+
+.button1 p a {
+    text-decoration: none;
+    color: white;
+}
+
+.button1 p {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 24px;
+    font-family: montmed;
+}
+
+.relative-about {
+    position: relative;
+    border: 1px solid white;
+}
+
+.about .title p {
+    font-family: PlayfairDisplay-bold;
+    color: #39261C;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.lorem1 p {
+    font-family: PlayfairDisplay-regular;
+    font-size: 36px;
+    color: #BD9677;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 582px;
+}
+
+.lorem2 p {
+    font-family: montmed;
+    font-size: 24px;
+    line-height: 40px;
+    color: #ccc;
+    position: absolute;
+    margin-top: 211px;
+    margin-left: 687px;
+}
+
+.lorem3 p {
+    font-family: montmed;
+    font-size: 24px;
+    line-height: 40px;
+    color: #ccc;
+    position: absolute;
+    margin-top: 352px;
+    margin-left: 840px;
+}
+
+.img-1 {
+    width: 323px;
+    height: 404px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 219px;
+}
+
+.img-1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-2 {
+    width: 399px;
+    height: 240px;
+    margin-left: 371px;
+    margin-top: 353px;
+    position: relative;
+}
+
+.img-2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.border1 {
+    border: 2px solid #BD9677;
+    height: 337px;
+    width: 337px;
+    margin-left: 290px;
+    margin-top: 218px;
+    position: absolute;
+}
+
+.border2 {
+    border: 2px solid #BD9677;
+    height: 239px;
+    width: 239px;
+    margin-left: 339px;
+    margin-top: 268px;
+    position: absolute;
+}
+
+.title p {
+    font-family: PlayfairDisplay-bold;
+    color: #39261C;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.contact {
+    position: relative;
+}
+
+
+.gmapp {
+    height: 100%;
+    width: 100%;
+    height: 500px;
+    width: 500px;
+    margin-left: 220px;
+    margin-top: 40px;
+    position: absolute;
+}
+
+.contact .suggests {
+    font-family: PlayfairDisplay-regular;
+    font-size: 36px;
+    color: #BD9677;
+    margin-left: 759px;
+    margin-top: 40px;
+}
+
+.form {
+    width: 483px;
+    height: 520px;
+    background-color: #39261C;
+    margin-left: 759px;
+    margin-top: 40px;
+    box-shadow: 0 47px 43px 0 rgba(57, 38, 28, 0.15), 0 15.2px 12.96px 0 rgba(57, 38, 28, 0.0973), 0 7.86px 5.38px 0 rgba(57, 38, 28, 0.0713), 0 3.56px 1.95px 0 rgba(57, 38, 28, 0.0495);
+}
+
+.form1 {
+    font-size: 24px;
+    font-family: montmed;
+    color: white;
+    padding-top: 20px;
+    margin-left: 28px;
+    position: relative;
+}
+
+.form1 textarea {
+    height: 40px;
+    width: 423px;
+}
+
+.form2 {
+    font-size: 24px;
+    font-family: montmed;
+    color: white;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.form2 textarea {
+    height: 80px;
+    width: 423px;
+}
+
+.button-suggests {
+    color: #799093;
+}
+
+.button-suggest p {
+    margin: 20px 180px;
+    color: white;
+    display: inline-block;
+    padding: 8px 29px;
+    background-color: #799093;
+    font-family: montmed;
+    font-size: 24px;
+    border-radius: 15px;
+}
+
+.footer {
+    width: 100%;
+    height: 160px;
+    background-color: #BD9677;
+    position: absolute;
+    top: 90%;
+    z-index: -1;
+}
